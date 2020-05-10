@@ -1,0 +1,57 @@
+$begin 'Profile'
+	$begin 'ProfileGroup'
+		StartInfo='Time: 5/10/2020 8:27:53 PM; Host: ANNY; Processor: 4; OS: NT 6.2; Maxwell 16.0.0'
+		TotalInfo='Time:  05/10/2020 20:30:14, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\Maxwell16.0\\Win64\\MAXWELLCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('  Mesh Pre', 6, 0, 6, 0, 75240, '4524 triangles', true, true)
+		ProfileTask('  Mesh TAU (Strict)', 9, 0, 9, 0, 135000, '72043 tetrahedra', true, true)
+		ProfileTask('  Mesh TAU (Coarsening)', 10, 0, 10, 0, 135000, '17694 tetrahedra', true, true)
+		ProfileTask('  Mesh Post', 3, 0, 3, 0, 138076, '17132 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 1', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 230, '1739 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 1, 0, 1, 0, 38378, '23499 matrix,    0KB disk', true, true)
+		ProfileTask('  adapt', 5, 0, 6, 0, 75776, '17132 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 2', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  Mesh (mixedmode, adaptive)', 2, 0, 2, 0, 57540, '22275 tets', true, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 230, '1758 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 0, 0, 1, 0, 63283, '30643 matrix,    0KB disk', true, true)
+		ProfileTask('  adapt', 8, 0, 7, 0, 99328, '22275 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 3', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  Mesh (mixedmode, adaptive)', 3, 0, 3, 0, 63328, '28964 tets', true, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 235, '1804 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 2, 0, 1, 0, 99759, '39747 matrix,    0KB disk', true, true)
+		ProfileTask('  adapt', 10, 0, 10, 0, 123904, '28964 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 4', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  Mesh (mixedmode, adaptive)', 3, 0, 3, 0, 70976, '37660 tets', true, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 251, '1882 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 1, 0, 2, 0, 145657, '51418 matrix,    0KB disk', true, true)
+		ProfileTask('  adapt', 12, 0, 12, 0, 154624, '37660 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 5', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  Mesh (mixedmode, adaptive)', 4, 0, 4, 0, 78864, '48965 tets', true, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 260, '1970 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 4, 0, 4, 0, 241285, '66537 matrix,    0KB disk', true, true)
+		ProfileTask('  adapt', 16, 0, 15, 0, 192512, '48965 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Adaptive Passes Converged', false, true)
+		ProfileTask('Matrix1', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 260, '1970 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 0, 0, 0, 0, 260, '1970 matrix,    0KB disk', true, true)
+		ProfileTask('  Solver DRS', 3, 0, 4, 0, 241285, '66537 matrix,    0KB disk', true, true)
+		ProfileTask('  param', 21, 0, 20, 0, 207872, '48965 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:02:21 , Maxwell ComEngine Memory : 57 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time: 5/10/2020 8:54:13 PM; Host: ANNY; Processor: 4; OS: NT 6.2; Maxwell 16.0.0'
+		TotalInfo='Time:  05/10/2020 20:54:16, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\Maxwell16.0\\Win64\\MAXWELLCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:02 , Maxwell ComEngine Memory : 56.7 M', false, true)
+	$end 'ProfileGroup'
+$end 'Profile'
