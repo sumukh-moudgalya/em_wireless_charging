@@ -1,0 +1,700 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000005, day=000000000010, hour=000000000023, min=000000000015, sec=000000000010)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000031314, lin=000000000656, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock4'
+	ProductName=''
+	CircuitName='Maxwell3DDesign1'
+	VersionID=130
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=171
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=84)
+		Map(V='dist=\'10.0475457260383mm\'', ID=124)
+		Map(V='dist=\'10mm\'', ID=157)
+		Map(V='dist=\'12mm\'', ID=158)
+		Map(V='dist=\'14mm\'', ID=151)
+		Map(V='dist=\'15.9242868221399mm\'', ID=125)
+		Map(V='dist=\'15mm\'', ID=149)
+		Map(V='dist=\'16mm\'', ID=159)
+		Map(V='dist=\'18mm\'', ID=160)
+		Map(V='dist=\'19mm\'', ID=152)
+		Map(V='dist=\'20mm\'', ID=161)
+		Map(V='dist=\'22mm\'', ID=162)
+		Map(V='dist=\'24mm\'', ID=153)
+		Map(V='dist=\'25.2382937792077mm\'', ID=126)
+		Map(V='dist=\'26mm\'', ID=163)
+		Map(V='dist=\'28mm\'', ID=164)
+		Map(V='dist=\'29mm\'', ID=154)
+		Map(V='dist=\'30mm\'', ID=127)
+		Map(V='dist=\'32mm\'', ID=165)
+		Map(V='dist=\'34mm\'', ID=166)
+		Map(V='dist=\'36mm\'', ID=167)
+		Map(V='dist=\'38mm\'', ID=168)
+		Map(V='dist=\'40mm\'', ID=169)
+		Map(V='dist=\'4mm\'', ID=122)
+		Map(V='dist=\'6.33957276984445mm\'', ID=123)
+		Map(V='dist=\'6mm\'', ID=155)
+		Map(V='dist=\'8mm\'', ID=156)
+		Map(V='dist=\'9mm\'', ID=119)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=149, Ver=130, Dir='DV149_V130.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=149, Ver=130, Dir='DV149_MI0_V130.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock4'
+	'SolutionKey(SimSetup=65, Instance=\'SetupDefinition\', Solution=-1, VersionID=130)'='SolutionBlock22'
+	'SolutionKey(SimSetup=65, Instance=\'SolutionDefinition\', Solution=66, VersionID=130)'='SolutionBlock20'
+	'SolutionKey(SimSetup=65, Instance=\'SolutionDefinition\', Solution=67, VersionID=130)'='SolutionBlock21'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'12mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock33'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'14mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock26'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'15mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock23'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'16mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock34'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'18mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock35'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'19mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock27'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'20mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock36'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'22mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock37'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'24mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock28'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'26mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock38'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'28mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock39'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'29mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock29'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'30mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock30'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'32mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock40'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'34mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock41'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'36mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock42'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'38mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock43'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'40mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock44'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'4mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock24'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'6mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock31'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'8mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock32'
+	'SolutionKey(SimSetup=65, Instance=\'dist=\\\'9mm\\\'\', Solution=-3, VersionID=130)'='SolutionBlock25'
+$end 'BlockMapName'
+$begin 'SolutionBlock20'
+	SolutionName='AdaptivePass'
+	SolutionID=66
+	V=130
+	$begin 'States'
+		F(VID=119, Ver=130)
+		F(VID=122, Ver=130)
+		F(VID=127, Ver=130)
+		F(VID=149, Ver=130)
+		F(VID=151, Ver=130)
+		F(VID=152, Ver=130)
+		F(VID=153, Ver=130)
+		F(VID=154, Ver=130)
+		F(VID=155, Ver=130)
+		F(VID=156, Ver=130)
+		F(VID=158, Ver=130)
+		F(VID=159, Ver=130)
+		F(VID=160, Ver=130)
+		F(VID=161, Ver=130)
+		F(VID=162, Ver=130)
+		F(VID=163, Ver=130)
+		F(VID=164, Ver=130)
+		F(VID=165, Ver=130)
+		F(VID=166, Ver=130)
+		F(VID=167, Ver=130)
+		F(VID=168, Ver=130)
+		F(VID=169, Ver=130)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=12
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=8
+			Ver=10
+			PAR(VID=119, Ver=10, File='DV119_SOL66_PAR8_V10.sd')
+			PAR(VID=122, Ver=10, File='DV122_SOL66_PAR8_V10.sd')
+			PAR(VID=127, Ver=10, File='DV127_SOL66_PAR8_V10.sd')
+			PAR(VID=149, Ver=10, File='DV149_SOL66_PAR8_V10.sd')
+			PAR(VID=151, Ver=10, File='DV151_SOL66_PAR8_V10.sd')
+			PAR(VID=152, Ver=10, File='DV152_SOL66_PAR8_V10.sd')
+			PAR(VID=153, Ver=10, File='DV153_SOL66_PAR8_V10.sd')
+			PAR(VID=154, Ver=10, File='DV154_SOL66_PAR8_V10.sd')
+			PAR(VID=155, Ver=10, File='DV155_SOL66_PAR8_V10.sd')
+			PAR(VID=156, Ver=10, File='DV156_SOL66_PAR8_V10.sd')
+			PAR(VID=158, Ver=10, File='DV158_SOL66_PAR8_V10.sd')
+			PAR(VID=159, Ver=10, File='DV159_SOL66_PAR8_V10.sd')
+			PAR(VID=160, Ver=10, File='DV160_SOL66_PAR8_V10.sd')
+			PAR(VID=161, Ver=10, File='DV161_SOL66_PAR8_V10.sd')
+			PAR(VID=162, Ver=10, File='DV162_SOL66_PAR8_V10.sd')
+			PAR(VID=163, Ver=10, File='DV163_SOL66_PAR8_V10.sd')
+			PAR(VID=164, Ver=10, File='DV164_SOL66_PAR8_V10.sd')
+			PAR(VID=165, Ver=10, File='DV165_SOL66_PAR8_V10.sd')
+			PAR(VID=166, Ver=10, File='DV166_SOL66_PAR8_V10.sd')
+			PAR(VID=167, Ver=10, File='DV167_SOL66_PAR8_V10.sd')
+			PAR(VID=168, Ver=10, File='DV168_SOL66_PAR8_V10.sd')
+			PAR(VID=169, Ver=10, File='DV169_SOL66_PAR8_V10.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=119, Ver=130, File='DV119_SOL66_NFSP10_V130.sd')
+			NFSP(VID=122, Ver=130, File='DV122_SOL66_NFSP10_V130.sd')
+			NFSP(VID=127, Ver=130, File='DV127_SOL66_NFSP10_V130.sd')
+			NFSP(VID=149, Ver=130, File='DV149_SOL66_NFSP10_V130.sd')
+			NFSP(VID=151, Ver=130, File='DV151_SOL66_NFSP10_V130.sd')
+			NFSP(VID=152, Ver=130, File='DV152_SOL66_NFSP10_V130.sd')
+			NFSP(VID=153, Ver=130, File='DV153_SOL66_NFSP10_V130.sd')
+			NFSP(VID=154, Ver=130, File='DV154_SOL66_NFSP10_V130.sd')
+			NFSP(VID=155, Ver=130, File='DV155_SOL66_NFSP10_V130.sd')
+			NFSP(VID=156, Ver=130, File='DV156_SOL66_NFSP10_V130.sd')
+			NFSP(VID=158, Ver=130, File='DV158_SOL66_NFSP10_V130.sd')
+			NFSP(VID=159, Ver=130, File='DV159_SOL66_NFSP10_V130.sd')
+			NFSP(VID=160, Ver=130, File='DV160_SOL66_NFSP10_V130.sd')
+			NFSP(VID=161, Ver=130, File='DV161_SOL66_NFSP10_V130.sd')
+			NFSP(VID=162, Ver=130, File='DV162_SOL66_NFSP10_V130.sd')
+			NFSP(VID=163, Ver=130, File='DV163_SOL66_NFSP10_V130.sd')
+			NFSP(VID=164, Ver=130, File='DV164_SOL66_NFSP10_V130.sd')
+			NFSP(VID=165, Ver=130, File='DV165_SOL66_NFSP10_V130.sd')
+			NFSP(VID=166, Ver=130, File='DV166_SOL66_NFSP10_V130.sd')
+			NFSP(VID=167, Ver=130, File='DV167_SOL66_NFSP10_V130.sd')
+			NFSP(VID=168, Ver=130, File='DV168_SOL66_NFSP10_V130.sd')
+			NFSP(VID=169, Ver=130, File='DV169_SOL66_NFSP10_V130.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock20'
+$begin 'SolutionBlock21'
+	SolutionName='LastAdaptive'
+	SolutionID=67
+	V=130
+	$begin 'States'
+		F(VID=119, Ver=130)
+		F(VID=122, Ver=130)
+		F(VID=127, Ver=130)
+		F(VID=149, Ver=130)
+		F(VID=151, Ver=130)
+		F(VID=152, Ver=130)
+		F(VID=153, Ver=130)
+		F(VID=154, Ver=130)
+		F(VID=155, Ver=130)
+		F(VID=156, Ver=130)
+		F(VID=158, Ver=130)
+		F(VID=159, Ver=130)
+		F(VID=160, Ver=130)
+		F(VID=161, Ver=130)
+		F(VID=162, Ver=130)
+		F(VID=163, Ver=130)
+		F(VID=164, Ver=130)
+		F(VID=165, Ver=130)
+		F(VID=166, Ver=130)
+		F(VID=167, Ver=130)
+		F(VID=168, Ver=130)
+		F(VID=169, Ver=130)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(89, -1)
+		$begin 'DataMap'
+			VID=149
+			Ver=130
+			Field(DblID=89, Dir='DV149_SOL67_V130.Field89/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PAR'
+		NextUniqueID=12
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=8
+			Ver=10
+			PAR(VID=119, Ver=10, File='DV119_SOL67_PAR8_V10.sd')
+			PAR(VID=122, Ver=10, File='DV122_SOL67_PAR8_V10.sd')
+			PAR(VID=127, Ver=10, File='DV127_SOL67_PAR8_V10.sd')
+			PAR(VID=149, Ver=10, File='DV149_SOL67_PAR8_V10.sd')
+			PAR(VID=151, Ver=10, File='DV151_SOL67_PAR8_V10.sd')
+			PAR(VID=152, Ver=10, File='DV152_SOL67_PAR8_V10.sd')
+			PAR(VID=153, Ver=10, File='DV153_SOL67_PAR8_V10.sd')
+			PAR(VID=154, Ver=10, File='DV154_SOL67_PAR8_V10.sd')
+			PAR(VID=155, Ver=10, File='DV155_SOL67_PAR8_V10.sd')
+			PAR(VID=156, Ver=10, File='DV156_SOL67_PAR8_V10.sd')
+			PAR(VID=158, Ver=10, File='DV158_SOL67_PAR8_V10.sd')
+			PAR(VID=159, Ver=10, File='DV159_SOL67_PAR8_V10.sd')
+			PAR(VID=160, Ver=10, File='DV160_SOL67_PAR8_V10.sd')
+			PAR(VID=161, Ver=10, File='DV161_SOL67_PAR8_V10.sd')
+			PAR(VID=162, Ver=10, File='DV162_SOL67_PAR8_V10.sd')
+			PAR(VID=163, Ver=10, File='DV163_SOL67_PAR8_V10.sd')
+			PAR(VID=164, Ver=10, File='DV164_SOL67_PAR8_V10.sd')
+			PAR(VID=165, Ver=10, File='DV165_SOL67_PAR8_V10.sd')
+			PAR(VID=166, Ver=10, File='DV166_SOL67_PAR8_V10.sd')
+			PAR(VID=167, Ver=10, File='DV167_SOL67_PAR8_V10.sd')
+			PAR(VID=168, Ver=10, File='DV168_SOL67_PAR8_V10.sd')
+			PAR(VID=169, Ver=10, File='DV169_SOL67_PAR8_V10.sd')
+		$end 'SubData'
+	$end 'PAR'
+$end 'SolutionBlock21'
+$begin 'SolutionBlock22'
+	SimSetupID=65
+	SimSetupName='Setup1'
+	VersionID=130
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(87, -1)
+		$begin 'DataMap'
+			VID=149
+			Ver=130
+			M(DblID=87, Dir='DV149_S65_V130.cmesh87/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'LastPassNumbers'
+		LP(VID=119, Ver=130, P=5)
+		LP(VID=122, Ver=130, P=4)
+		LP(VID=127, Ver=130, P=6)
+		LP(VID=149, Ver=130, P=5)
+		LP(VID=151, Ver=130, P=5)
+		LP(VID=152, Ver=130, P=5)
+		LP(VID=153, Ver=130, P=6)
+		LP(VID=154, Ver=130, P=6)
+		LP(VID=155, Ver=130, P=5)
+		LP(VID=156, Ver=130, P=5)
+		LP(VID=158, Ver=130, P=5)
+		LP(VID=159, Ver=130, P=5)
+		LP(VID=160, Ver=130, P=5)
+		LP(VID=161, Ver=130, P=5)
+		LP(VID=162, Ver=130, P=6)
+		LP(VID=163, Ver=130, P=6)
+		LP(VID=164, Ver=130, P=6)
+		LP(VID=165, Ver=130, P=6)
+		LP(VID=166, Ver=130, P=6)
+		LP(VID=167, Ver=130, P=6)
+		LP(VID=168, Ver=130, P=6)
+		LP(VID=169, Ver=130, P=6)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=119, Ver=130, File='DV119_S65_V130.profile')
+		P(VID=122, Ver=130, File='DV122_S65_V130.profile')
+		P(VID=127, Ver=130, File='DV127_S65_V130.profile')
+		P(VID=149, Ver=130, File='DV149_S65_V130.profile')
+		P(VID=151, Ver=130, File='DV151_S65_V130.profile')
+		P(VID=152, Ver=130, File='DV152_S65_V130.profile')
+		P(VID=153, Ver=130, File='DV153_S65_V130.profile')
+		P(VID=154, Ver=130, File='DV154_S65_V130.profile')
+		P(VID=155, Ver=130, File='DV155_S65_V130.profile')
+		P(VID=156, Ver=130, File='DV156_S65_V130.profile')
+		P(VID=157, Ver=130, File='DV157_S65_V130.profile')
+		P(VID=158, Ver=130, File='DV158_S65_V130.profile')
+		P(VID=159, Ver=130, File='DV159_S65_V130.profile')
+		P(VID=160, Ver=130, File='DV160_S65_V130.profile')
+		P(VID=161, Ver=130, File='DV161_S65_V130.profile')
+		P(VID=162, Ver=130, File='DV162_S65_V130.profile')
+		P(VID=163, Ver=130, File='DV163_S65_V130.profile')
+		P(VID=164, Ver=130, File='DV164_S65_V130.profile')
+		P(VID=165, Ver=130, File='DV165_S65_V130.profile')
+		P(VID=166, Ver=130, File='DV166_S65_V130.profile')
+		P(VID=167, Ver=130, File='DV167_S65_V130.profile')
+		P(VID=168, Ver=130, File='DV168_S65_V130.profile')
+		P(VID=169, Ver=130, File='DV169_S65_V130.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=149, Ver=130, Dir='DV149_S65_MI0_V130.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock22'
+$begin 'SolutionBlock25'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17017, te=3.829926693343051e-005, de_ee='(17.145, N/A)', p=1, ee=17.14507557925237)
+	c(tet=22130, te=3.622941074638732e-005, de_ee='(5.4014, 5.4044)', p=2, de=5.404427689545292, ee=5.40143384373753)
+	c(tet=28776, te=3.577992252658443e-005, de_ee='(2.5527, 1.2407)', p=3, de=1.240672179156856, ee=2.552669372658477)
+	c(tet=37419, te=3.544243888932955e-005, de_ee='(1.3815, 0.94322)', p=4, de=0.9432207043045683, ee=1.381535509237256)
+	c(tet=48653, te=3.527953952964337e-005, de_ee='(0.83756, 0.45962)', p=5, de=0.4596166764788585, ee=0.8375617676037797)
+$end 'SolutionBlock25'
+$begin 'SolutionBlock27'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16629, te=3.649651990627398e-005, de_ee='(15.728, N/A)', p=1, ee=15.72812821918131)
+	c(tet=21625, te=3.452065622669313e-005, de_ee='(7.0435, 5.4138)', p=2, de=5.413841332420247, ee=7.043529809431131)
+	c(tet=28122, te=3.373513649937033e-005, de_ee='(2.6508, 2.2755)', p=3, de=2.275506358176914, ee=2.650779581019405)
+	c(tet=36563, te=3.330015365060158e-005, de_ee='(1.5356, 1.2894)', p=4, de=1.289405924819275, ee=1.5356191325833)
+	c(tet=47538, te=3.309370003652748e-005, de_ee='(0.99519, 0.61998)', p=5, de=0.6199779623850868, ee=0.9951888252914524)
+$end 'SolutionBlock27'
+$begin 'SolutionBlock29'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16462, te=3.714377866842711e-005, de_ee='(25.97, N/A)', p=1, ee=25.97023424497505)
+	c(tet=21408, te=3.4327892382191e-005, de_ee='(6.9697, 7.581)', p=2, de=7.581044221086926, ee=6.969661391395661)
+	c(tet=27837, te=3.355484136761077e-005, de_ee='(3.3093, 2.252)', p=3, de=2.251961774913047, ee=3.309263934292303)
+	c(tet=36193, te=3.305612940989209e-005, de_ee='(1.7191, 1.4863)', p=4, de=1.486259321732531, ee=1.719096519832224)
+	c(tet=47054, te=3.277855476241991e-005, de_ee='(1.1889, 0.83971)', p=5, de=0.8397070450393319, ee=1.188879715362841)
+	c(tet=61176, te=3.25507589938765e-005, de_ee='(0.77984, 0.69495)', p=6, de=0.6949536677089059, ee=0.7798381681749794)
+$end 'SolutionBlock29'
+$begin 'OptimetricsResult1'
+	V=2
+	vi('dist', '15mm', '15mm', '15mm')
+	gver(0)
+	ev(67, 130)
+	var(4.000000000000000e-003)
+	gvs(4.000000000000000e-003)
+	var(6.000000000000000e-003)
+	gvs(6.000000000000000e-003)
+	var(8.000000000000000e-003)
+	gvs(8.000000000000000e-003)
+	var(1.000000000000000e-002)
+	gvs(1.000000000000000e-002)
+	var(1.200000000000000e-002)
+	gvs(1.200000000000000e-002)
+	var(1.400000000000000e-002)
+	gvs(1.400000000000000e-002)
+	var(1.600000000000000e-002)
+	gvs(1.600000000000000e-002)
+	var(1.800000000000000e-002)
+	gvs(1.800000000000000e-002)
+	var(2.000000000000000e-002)
+	gvs(2.000000000000000e-002)
+	var(2.200000000000000e-002)
+	gvs(2.200000000000000e-002)
+	var(2.400000000000000e-002)
+	gvs(2.400000000000000e-002)
+	var(2.600000000000000e-002)
+	gvs(2.600000000000000e-002)
+	var(2.800000000000000e-002)
+	gvs(2.800000000000000e-002)
+	var(3.000000000000000e-002)
+	gvs(3.000000000000000e-002)
+	var(3.200000000000000e-002)
+	gvs(3.200000000000000e-002)
+	var(3.400000000000000e-002)
+	gvs(3.400000000000000e-002)
+	var(3.600000000000000e-002)
+	gvs(3.600000000000000e-002)
+	var(3.800000000000000e-002)
+	gvs(3.800000000000000e-002)
+	var(4.000000000000000e-002)
+	gvs(4.000000000000000e-002)
+$end 'OptimetricsResult1'
+$begin 'SolutionBlock44'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16773, te=3.726602344109685e-005, de_ee='(22.469, N/A)', p=1, ee=22.46904205629886)
+	c(tet=21811, te=3.426255848518188e-005, de_ee='(7.3347, 8.0595)', p=2, de=8.059526288503207, ee=7.334745744574911)
+	c(tet=28364, te=3.338519811147929e-005, de_ee='(3.1597, 2.5607)', p=3, de=2.560697193941423, ee=3.159712355273927)
+	c(tet=36880, te=3.297110123685631e-005, de_ee='(1.7915, 1.2404)', p=4, de=1.24036069290417, ee=1.791502055676568)
+	c(tet=47950, te=3.273211708451154e-005, de_ee='(1.0858, 0.72483)', p=5, de=0.7248291484957464, ee=1.085777815032315)
+	c(tet=62342, te=3.251764825154891e-005, de_ee='(0.75499, 0.65522)', p=6, de=0.6552244464019456, ee=0.7549911226491886)
+$end 'SolutionBlock44'
+$begin 'SolutionBlock43'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16903, te=3.778910496505711e-005, de_ee='(23.865, N/A)', p=1, ee=23.86456475549558)
+	c(tet=21981, te=3.461321442410522e-005, de_ee='(6.8294, 8.4042)', p=2, de=8.404249171523318, ee=6.829394682992347)
+	c(tet=28590, te=3.348577052644119e-005, de_ee='(2.9746, 3.2573)', p=3, de=3.257264361089972, ee=2.974582515652822)
+	c(tet=37173, te=3.304783660390361e-005, de_ee='(1.6911, 1.3078)', p=4, de=1.307820950967151, ee=1.69110303380548)
+	c(tet=48333, te=3.272468470866685e-005, de_ee='(1.1564, 0.97783)', p=5, de=0.9778307097977619, ee=1.156415237460763)
+	c(tet=62836, te=3.250891906078182e-005, de_ee='(0.83994, 0.65934)', p=6, de=0.6593360632986985, ee=0.8399427567985094)
+$end 'SolutionBlock43'
+$begin 'SolutionBlock42'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16994, te=3.595699513983494e-005, de_ee='(21.952, N/A)', p=1, ee=21.95178434797695)
+	c(tet=22097, te=3.408758931385438e-005, de_ee='(7.2159, 5.199)', p=2, de=5.199004585089887, ee=7.215929370151749)
+	c(tet=28733, te=3.329100963224498e-005, de_ee='(3.1605, 2.3369)', p=3, de=2.336861296570581, ee=3.160525138282879)
+	c(tet=37367, te=3.295016404366436e-005, de_ee='(1.7018, 1.0238)', p=4, de=1.023836742549533, ee=1.701776692842243)
+	c(tet=48584, te=3.268187232981094e-005, de_ee='(1.0881, 0.81423)', p=5, de=0.8142348350614744, ee=1.088111554915152)
+	c(tet=63164, te=3.248084242183248e-005, de_ee='(0.79274, 0.61511)', p=6, de=0.6151113557685852, ee=0.7927382103165525)
+$end 'SolutionBlock42'
+$begin 'SolutionBlock41'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16839, te=3.673995414427309e-005, de_ee='(23.151, N/A)', p=1, ee=23.1510149272698)
+	c(tet=21898, te=3.415516119166185e-005, de_ee='(6.7348, 7.0354)', p=2, de=7.035373377062704, ee=6.734849806508332)
+	c(tet=28472, te=3.338004902405013e-005, de_ee='(3.1435, 2.2694)', p=3, de=2.269385183873615, ee=3.143490883409478)
+	c(tet=37020, te=3.293324279349746e-005, de_ee='(1.5973, 1.3385)', p=4, de=1.338542763165957, ee=1.597261844981591)
+	c(tet=48137, te=3.270985430836893e-005, de_ee='(1.1121, 0.67831)', p=5, de=0.6783069815786104, ee=1.112098993434854)
+	c(tet=62584, te=3.251580685106263e-005, de_ee='(0.7771, 0.59324)', p=6, de=0.5932385252374881, ee=0.7771002982319821)
+$end 'SolutionBlock41'
+$begin 'SolutionBlock40'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17156, te=3.67897294391381e-005, de_ee='(20.85, N/A)', p=1, ee=20.84987880864792)
+	c(tet=22308, te=3.446588372020606e-005, de_ee='(8.0089, 6.3166)', p=2, de=6.316561046681311, ee=8.008941542225639)
+	c(tet=29009, te=3.342088873389565e-005, de_ee='(3.242, 3.032)', p=3, de=3.031969221487765, ee=3.242028976053747)
+	c(tet=37717, te=3.292913634537526e-005, de_ee='(1.6849, 1.4714)', p=4, de=1.471392315254773, ee=1.684874346428904)
+	c(tet=49042, te=3.272171986639675e-005, de_ee='(1.1371, 0.62989)', p=5, de=0.629887394564598, ee=1.137130331425031)
+	c(tet=63759, te=3.251562628228493e-005, de_ee='(0.80202, 0.62984)', p=6, de=0.6298372608570344, ee=0.8020188662229313)
+$end 'SolutionBlock40'
+$begin 'SolutionBlock30'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16861, te=3.623858670748286e-005, de_ee='(23.975, N/A)', p=1, ee=23.97533796808671)
+	c(tet=21923, te=3.411248604190427e-005, de_ee='(7.5752, 5.867)', p=2, de=5.866952491112405, ee=7.575223437815282)
+	c(tet=28504, te=3.335124405441086e-005, de_ee='(3.0929, 2.2316)', p=3, de=2.231564086411896, ee=3.092907086501153)
+	c(tet=37064, te=3.297719294723187e-005, de_ee='(1.655, 1.1216)', p=4, de=1.121550688090524, ee=1.655041450312357)
+	c(tet=48191, te=3.271212074226491e-005, de_ee='(1.0609, 0.8038)', p=5, de=0.8038046336785296, ee=1.060890643591885)
+	c(tet=62652, te=3.251049664962607e-005, de_ee='(0.74116, 0.61636)', p=6, de=0.616358976623401, ee=0.7411628360170871)
+$end 'SolutionBlock30'
+$begin 'SolutionBlock39'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16855, te=3.673482450639564e-005, de_ee='(18.99, N/A)', p=1, ee=18.99046066873655)
+	c(tet=21927, te=3.418103297799202e-005, de_ee='(6.2932, 6.952)', p=2, de=6.951963328309908, ee=6.293196434031517)
+	c(tet=28510, te=3.341743882147779e-005, de_ee='(2.8881, 2.234)', p=3, de=2.233970392310483, ee=2.888089047560301)
+	c(tet=37068, te=3.301458880036104e-005, de_ee='(1.6511, 1.2055)', p=4, de=1.205508367259544, ee=1.651113034531583)
+	c(tet=48193, te=3.27594886749776e-005, de_ee='(1.1176, 0.77269)', p=5, de=0.7726890888328991, ee=1.117607914987183)
+	c(tet=62657, te=3.261162298556392e-005, de_ee='(0.80271, 0.45137)', p=6, de=0.4513675133355223, ee=0.8027117722247186)
+$end 'SolutionBlock39'
+$begin 'SolutionBlock38'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17002, te=3.729987332138705e-005, de_ee='(27.3, N/A)', p=1, ee=27.29980755885678)
+	c(tet=22115, te=3.413906914736198e-005, de_ee='(6.631, 8.474)', p=2, de=8.474034608081947, ee=6.630984408280407)
+	c(tet=28758, te=3.333680991819442e-005, de_ee='(3.0127, 2.35)', p=3, de=2.349973942478024, ee=3.012665580323528)
+	c(tet=37390, te=3.296230105882983e-005, de_ee='(1.6766, 1.1234)', p=4, de=1.123409409249424, ee=1.676612863998476)
+	c(tet=48613, te=3.273526246983044e-005, de_ee='(1.0509, 0.68878)', p=5, de=0.6887825840622605, ee=1.050884673359204)
+	c(tet=63211, te=3.254144364569895e-005, de_ee='(0.72442, 0.59208)', p=6, de=0.5920796398383007, ee=0.7244200309174174)
+$end 'SolutionBlock38'
+$begin 'SolutionBlock28'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16257, te=3.690435500755626e-005, de_ee='(29.945, N/A)', p=1, ee=29.94487512751865)
+	c(tet=21143, te=3.444205435155771e-005, de_ee='(6.9826, 6.6721)', p=2, de=6.672114051293911, ee=6.982584237921312)
+	c(tet=27494, te=3.358022340081508e-005, de_ee='(3.0105, 2.5023)', p=3, de=2.502263488541456, ee=3.010459032050904)
+	c(tet=35752, te=3.317627720996235e-005, de_ee='(1.7352, 1.2029)', p=4, de=1.202928837105128, ee=1.735229297086544)
+	c(tet=46484, te=3.283153553090004e-005, de_ee='(1.0869, 1.0391)', p=5, de=1.039121046887053, ee=1.086866611352386)
+	c(tet=60437, te=3.261679007202337e-005, de_ee='(0.77437, 0.65408)', p=6, de=0.6540828974464448, ee=0.7743694634810472)
+$end 'SolutionBlock28'
+$begin 'SolutionBlock37'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16962, te=3.584404610785852e-005, de_ee='(15.746, N/A)', p=1, ee=15.74565509240816)
+	c(tet=22058, te=3.427391017552686e-005, de_ee='(5.5364, 4.3805)', p=2, de=4.380465105995446, ee=5.536431635258894)
+	c(tet=28686, te=3.34574127713985e-005, de_ee='(2.4804, 2.3823)', p=3, de=2.382270945879353, ee=2.480429236394401)
+	c(tet=37301, te=3.311392847989818e-005, de_ee='(1.4697, 1.0266)', p=4, de=1.02663135923632, ee=1.469681334471336)
+	c(tet=48495, te=3.282050131108297e-005, de_ee='(1.0152, 0.88611)', p=5, de=0.8861140380651099, ee=1.015223052524739)
+	c(tet=63050, te=3.268816418401741e-005, de_ee='(0.70099, 0.40321)', p=6, de=0.4032148254264035, ee=0.7009906412742001)
+$end 'SolutionBlock37'
+$begin 'SolutionBlock36'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17032, te=3.610827722891384e-005, de_ee='(15.606, N/A)', p=1, ee=15.60634434855324)
+	c(tet=22146, te=3.413140954607093e-005, de_ee='(5.4715, 5.4748)', p=2, de=5.474832461017918, ee=5.471478086521556)
+	c(tet=28798, te=3.355195983643071e-005, de_ee='(2.8656, 1.6977)', p=3, de=1.697702255331907, ee=2.865568937566933)
+	c(tet=37443, te=3.319701110167304e-005, de_ee='(1.4919, 1.0579)', p=4, de=1.057907605064151, ee=1.49190671689075)
+	c(tet=48681, te=3.295453935302083e-005, de_ee='(0.97538, 0.7304)', p=5, de=0.7304023483005339, ee=0.9753838750787882)
+$end 'SolutionBlock36'
+$begin 'SolutionBlock35'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16981, te=3.602907808933892e-005, de_ee='(16.141, N/A)', p=1, ee=16.14132801996739)
+	c(tet=22089, te=3.446295358015169e-005, de_ee='(5.6361, 4.3468)', p=2, de=4.346834812991379, ee=5.636062287570415)
+	c(tet=28720, te=3.375468599264285e-005, de_ee='(2.5913, 2.0552)', p=3, de=2.055156374979867, ee=2.59128937602671)
+	c(tet=37348, te=3.340732685314635e-005, de_ee='(1.4793, 1.0291)', p=4, de=1.029069384832104, ee=1.479332079389227)
+	c(tet=48559, te=3.313749377408358e-005, de_ee='(0.97207, 0.80771)', p=5, de=0.8077062862554431, ee=0.9720679635407786)
+$end 'SolutionBlock35'
+$begin 'SolutionBlock34'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16439, te=3.705496123115252e-005, de_ee='(18.511, N/A)', p=1, ee=18.51130699992803)
+	c(tet=21375, te=3.484230957583588e-005, de_ee='(6.3263, 5.9713)', p=2, de=5.971269654052263, ee=6.326324797110829)
+	c(tet=27795, te=3.404854114671774e-005, de_ee='(2.7669, 2.2782)', p=3, de=2.278173975208115, ee=2.766929087084417)
+	c(tet=36141, te=3.357946463290398e-005, de_ee='(1.5216, 1.3777)', p=4, de=1.377669932442833, ee=1.521614733374952)
+	c(tet=46987, te=3.334538916597556e-005, de_ee='(0.99934, 0.69708)', p=5, de=0.6970792104262825, ee=0.999338652588156)
+$end 'SolutionBlock34'
+$begin 'SolutionBlock26'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=16526, te=3.716608854888898e-005, de_ee='(19.636, N/A)', p=1, ee=19.63562737119919)
+	c(tet=21489, te=3.485782628799861e-005, de_ee='(6.5188, 6.2107)', p=2, de=6.210667710846228, ee=6.518798907597764)
+	c(tet=27941, te=3.417478399377081e-005, de_ee='(2.8221, 1.9595)', p=3, de=1.959509146050703, ee=2.822132864959554)
+	c(tet=36331, te=3.386209245265311e-005, de_ee='(1.4056, 0.91498)', p=4, de=0.9149773738868411, ee=1.405598288920308)
+	c(tet=47239, te=3.361418653022073e-005, de_ee='(0.9385, 0.7321)', p=5, de=0.7321045584498609, ee=0.9385025160673336)
+$end 'SolutionBlock26'
+$begin 'SolutionBlock33'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17507, te=3.762801370781297e-005, de_ee='(19.433, N/A)', p=1, ee=19.43270128076388)
+	c(tet=22768, te=3.514239897451758e-005, de_ee='(5.3705, 6.6058)', p=2, de=6.60575589399045, ee=5.370539795583566)
+	c(tet=29604, te=3.451729740023319e-005, de_ee='(2.601, 1.7788)', p=3, de=1.778767507413647, ee=2.601035900922765)
+	c(tet=38492, te=3.416878369532508e-005, de_ee='(1.3988, 1.0097)', p=4, de=1.009678425477645, ee=1.398794261116564)
+	c(tet=50045, te=3.395263099378462e-005, de_ee='(0.87922, 0.6326)', p=5, de=0.632602856068393, ee=0.8792222275302656)
+$end 'SolutionBlock33'
+$begin 'SolutionBlock32'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17339, te=3.934183172505342e-005, de_ee='(19.358, N/A)', p=1, ee=19.35845418990857)
+	c(tet=22546, te=3.712087383194011e-005, de_ee='(5.2589, 5.6453)', p=2, de=5.64528339360208, ee=5.258920092237056)
+	c(tet=29319, te=3.65740914760169e-005, de_ee='(2.1781, 1.473)', p=3, de=1.472978137310811, ee=2.178093345171865)
+	c(tet=38124, te=3.625049538293015e-005, de_ee='(1.2024, 0.88477)', p=4, de=0.8847686436693798, ee=1.202382918698988)
+	c(tet=49566, te=3.604621250106686e-005, de_ee='(0.76208, 0.56353)', p=5, de=0.5635312833806948, ee=0.7620833923655461)
+$end 'SolutionBlock32'
+$begin 'SolutionBlock31'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17063, te=4.195355210172818e-005, de_ee='(17.071, N/A)', p=1, ee=17.07114600134459)
+	c(tet=22186, te=3.920422869148653e-005, de_ee='(4.0864, 6.5533)', p=2, de=6.553255380081138, ee=4.086405820359899)
+	c(tet=28852, te=3.867501926836385e-005, de_ee='(2.0136, 1.3499)', p=3, de=1.349878420736806, ee=2.013602454885648)
+	c(tet=37512, te=3.837040423649932e-005, de_ee='(1.058, 0.78763)', p=4, de=0.7876273564359895, ee=1.058027070744244)
+	c(tet=48769, te=3.816666076879748e-005, de_ee='(0.68783, 0.53099)', p=5, de=0.5309911942705948, ee=0.6878305458926103)
+$end 'SolutionBlock31'
+$begin 'SolutionBlock24'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17225, te=4.51530534677715e-005, de_ee='(17.162, N/A)', p=1, ee=17.1621667356111)
+	c(tet=22398, te=4.191883463223461e-005, de_ee='(4.0379, 7.1628)', p=2, de=7.162790967936082, ee=4.037851867820976)
+	c(tet=29124, te=4.137453771453086e-005, de_ee='(1.6865, 1.2985)', p=3, de=1.298454316488076, ee=1.686472332556835)
+	c(tet=37866, te=4.10946378819895e-005, de_ee='(0.93301, 0.6765)', p=4, de=0.6765026221502849, ee=0.933010983564329)
+$end 'SolutionBlock24'
+$begin 'OptimetricsResults'
+	'2:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
+$begin 'SolutionBlock23'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tet=17132, te=3.710159600786323e-005, de_ee='(14.78, N/A)', p=1, ee=14.77954266272736)
+	c(tet=22275, te=3.445144422338501e-005, de_ee='(4.9147, 7.143)', p=2, de=7.142958981916999, ee=4.914733478816101)
+	c(tet=28964, te=3.399009815265655e-005, de_ee='(2.3674, 1.3391)', p=3, de=1.339119683160641, ee=2.367400640522979)
+	c(tet=37660, te=3.367195245288274e-005, de_ee='(1.4384, 0.936)', p=4, de=0.935995237039174, ee=1.438438154118909)
+	c(tet=48965, te=3.341847729713022e-005, de_ee='(0.90278, 0.75278)', p=5, de=0.7527783133669297, ee=0.902782452220642)
+$end 'SolutionBlock23'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock23(pos=30578, lin=643, lvl=0)
+		BlockMapName(pos=1817, lin=51, lvl=0)
+		SolutionBlock20(pos=4534, lin=79, lvl=0)
+		SolutionBlock21(pos=8034, lin=171, lvl=0)
+		SolutionBlock22(pos=10280, lin=244, lvl=0)
+		SolutionBlock4(pos=370, lin=1, lvl=0)
+		SolutionBlock25(pos=12603, lin=313, lvl=0)
+		SolutionBlock27(pos=13344, lin=326, lvl=0)
+		SolutionBlock29(pos=14082, lin=339, lvl=0)
+		OptimetricsResult1(pos=14934, lin=353, lvl=0)
+		SolutionBlock44(pos=16153, lin=397, lvl=0)
+		SolutionBlock43(pos=17010, lin=411, lvl=0)
+		SolutionBlock42(pos=17867, lin=425, lvl=0)
+		SolutionBlock41(pos=18724, lin=439, lvl=0)
+		SolutionBlock40(pos=19580, lin=453, lvl=0)
+		SolutionBlock30(pos=20433, lin=467, lvl=0)
+		SolutionBlock39(pos=21287, lin=481, lvl=0)
+		SolutionBlock38(pos=22141, lin=495, lvl=0)
+		SolutionBlock28(pos=22993, lin=509, lvl=0)
+		SolutionBlock37(pos=23849, lin=523, lvl=0)
+		SolutionBlock36(pos=24705, lin=537, lvl=0)
+		SolutionBlock35(pos=25443, lin=550, lvl=0)
+		SolutionBlock34(pos=26182, lin=563, lvl=0)
+		SolutionBlock26(pos=26921, lin=576, lvl=0)
+		SolutionBlock33(pos=27661, lin=589, lvl=0)
+		SolutionBlock32(pos=28397, lin=602, lvl=0)
+		SolutionBlock31(pos=29136, lin=615, lvl=0)
+		SolutionBlock24(pos=29877, lin=628, lvl=0)
+		OptimetricsResults(pos=30496, lin=640, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=31314, lin=656, lvl=0)
+	$end '$index$'
+$end '$index$'
